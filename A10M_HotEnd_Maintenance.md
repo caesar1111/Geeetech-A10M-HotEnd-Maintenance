@@ -8,10 +8,13 @@ A minimal invasive way to maintain (clean) your A10M HotEnd.
 **ATTENTION:**
 Every time your are doing something with the hotend it is recommended to check if the heater cartridge or the thermistor is touching the metal parts of the hotend. 
 REASON: If both the cartridge wire an the thermistor wire it touching the metal, you instantly fry the mainboard!
+
 *HOW TO CHECK:*
 Just unplug the cartridge and thermsitor plugs on the extension board, use a multimeter in diode mode and check the metal hotend vs. every line of the wiring.
+
 *HOTEND IMPROVEMENT:*
 Heater cartridge: The heater cartridge wires need to be bent 90 degree so make sure your heater cartridge is at least even or about 1mm outside the heatend. Best is if you also turn the cartridge vertically, so the little piece of wire exposed has enough clearance to the hotend. Advanced: you can also get yourself some hight temp silicone (+350°C e.g. K2 bond black silicone) or even exhaust assembly paste (+1000°C e.g. holts firegum but this will not be flexible) to seal the bare wires. this stuff might also help you with some hotend sealing...
+
 *THERMISTOR IMPROVEMENT:*
 Use a PTFE washer for the screw pushing the thermistor into the hotend. You might get the same result with a PTFE plumbing tape wrapper around the screw and the thermistor wires. Also possible is to use the high temp silicon, to just glue the thermistor into place, but this is somehow permanent.
 
