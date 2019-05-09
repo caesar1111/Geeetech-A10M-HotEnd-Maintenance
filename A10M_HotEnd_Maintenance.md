@@ -5,7 +5,15 @@ A minimal invasive way to maintain (clean) your A10M HotEnd.
 **Disclaimer:**
 *This tutorial is showing steps which worked for my installation. If you follow the steps, you are doing it at your own risk! Different installations might require a different approach. The minimal invasive approach requires additional care since the initial wiring will not be disassembled. Also using the blow torch to heat up the parts for cleaning introduced a fire hazard and might cause injuries due to the handling with hot metal parts. It is also not a bad idea to take step by step pictures while you are disassembling your own installation.*
 
-
+**ATTENTION:**
+Every time your are doing something with the hotend it is recommended to check if the heater cartridge or the thermistor is touching the metal parts of the hotend. 
+REASON: If both the cartridge wire an the thermistor wire it touching the metal, you instantly fry the mainboard!
+*HOW TO CHECK:*
+Just unplug the cartridge and thermsitor plugs on the extension board, use a multimeter in diode mode and check the metal hotend vs. every line of the wiring.
+*HOTEND IMPROVEMENT:*
+Heater cartridge: The heater cartridge wires need to be bent 90 degree so make sure your heater cartridge is at least even or about 1mm outside the heatend. Best is if you also turn the cartridge vertically, so the little piece of wire exposed has enough clearance to the hotend. Advanced: you can also get yourself some hight temp silicone (+350°C e.g. K2 bond black silicone) or even exhaust assembly paste (+1000°C e.g. holts firegum but this will not be flexible) to seal the bare wires. this stuff might also help you with some hotend sealing...
+*THERMISTOR IMPROVEMENT:*
+Use a PTFE washer for the screw pushing the thermistor into the hotend. You might get the same result with a PTFE plumbing tape wrapper around the screw and the thermistor wires. Also possible is to use the high temp silicon, to just glue the thermistor into place, but this is somehow permanent.
 
 ### HotEnd schematics
 ![](pics/IMG_0872.JPG)
@@ -68,7 +76,7 @@ Make sure you have all the required tools. You will need following mandatory thi
 - when putting the screen back into the throat, make sure its alligned with the cone part facing the throat
 left is correct, right is wrong
 ![](pics/IMG_0883.JPG)
-- Apply seal on the thread of the throat before screwing it into the heating block
+- Apply seal or hight temp silicon on the thread of the throat before screwing it into the heating block
 ![](pics/IMG_0935.JPG)
 ![](pics/IMG_0936.JPG)
 - Make sure that the tube is standing out of the lower part of the cooling block min 5mm, but not too much otherwise you will be unable to assemble the throats
