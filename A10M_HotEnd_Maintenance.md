@@ -1,4 +1,4 @@
-## Geeetech A10M HotEnd Maintenance
+## Geeetech A10M A20M 2in1out HotEnd Maintenance
 A minimal invasive way to maintain (clean) your A10M HotEnd.
 *REMARK:* I added the full size pictures in order to be able to zoom into all the details!
 
